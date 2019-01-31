@@ -1,0 +1,27 @@
+{
+  "name": "pizzaria",
+  "version": "1.0.0",
+  "description": "Node.js server application",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PauloCesar1218/Pizzaria.git"
+  },
+  "author": "Paulo Cesar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloCesar1218/Pizzaria/issues"
+  },
+  "homepage": "https://github.com/PauloCesar1218/Pizzaria#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

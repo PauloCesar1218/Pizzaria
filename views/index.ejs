@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ./pathing/links %>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container text-white">
+            <a class="navbar-brand" href="#">Paulo Cesar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto"> 
+                    <li class="nav-item"><a href="#" class="nav-link ">Quem sou eu</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link ">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link ">Blog</a></li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Social
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">LinkedIn</a>
+                            <a class="dropdown-item" href="#">GitHub</a>
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">Instagram</a>
+                            <a class="dropdown-item" href="#">Twitter</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="homeImg">
+        <img src="/public/images/pizza-3007395_1280.jpg" alt="">
+    </div>
+
+    <section id="story">
+        <div class="container">
+            <h1 class="display-4 text-white" id="origem">Sobre mim</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida ipsum sed quam bibendum, id malesuada nisi volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet blandit sem. Nullam venenatis, ligula laoreet blandit posuere, dui lectus faucibus libero, ac ullamcorper orci massa id lorem. Donec rutrum tristique risus, nec posuere sem dignissim sed. Sed et eleifend ipsum. Donec at ipsum eleifend, aliquet sapien sit amet, commodo neque. Suspendisse lacus tortor, congue eget cursus sed, tempor sed arcu. Donec a turpis nec tellus posuere condimentum non vitae magna. Sed aliquet, enim sed lacinia dignissim, turpis enim fringilla orci, quis venenatis velit nunc in urna. Curabitur nec posuere neque, ut gravida libero. Proin ac quam nisi. Nunc sodales ex sed congue commodo. Nam in nisl et odio laoreet malesuada placerat et mauris. Vestibulum dictum urna vitae lacus posuere tempus. Aliquam vitae diam dui.</p>
+            <div class="row skills">
+                <div class="col-sm-3">
+                    <h3 class="display-4">JavaScript</h3>
+                    <ul>
+                        <li>Front-End scripting</li>
+                        <li>Jquery</li>
+                        <li>NodeJs</li>
+                        <ul>
+                            <li>Express</li>
+                            <li>Middlewares</li>
+                            <li>Nodemailer</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                        <h3 class="display-4">Web</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>EJS</li>
+                            <li>CSS3</li>
+                            <ul>
+                                <li>BootStrap 4</li>
+                            </ul>
+                        </ul>
+                    </div>
+                <div class="col-sm-3">
+                    <h3 class="display-4">Java OOP</h3>
+                    <ul>
+                        <li>Orientação objeto</li>
+                        <li>Interface GUI</li>
+                        <li>Conecxão c/ banco de dados</li>
+                        <ul>
+                            <li>JPA</li>
+                            <li>Hibernate</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="display-4">BDs</h3>
+                    <ul>
+                        <li>Mysql</li>
+                        <li>MongoDB</li>
+                        <li>SQLserver</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="atualmente">
+
+        <div class="container">
+                <h1 class="display-4">Atualmente</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida ipsum sed quam bibendum, id malesuada nisi volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet blandit sem. Nullam venenatis, ligula laoreet blandit posuere, dui lectus faucibus libero, ac ullamcorper orci massa id lorem. Donec rutrum tristique risus, nec posuere sem dignissim sed. Sed et eleifend ipsum. Donec at ipsum eleifend, aliquet sapien sit amet, commodo neque. Suspendisse lacus tortor, congue eget cursus sed, tempor sed arcu. Donec a turpis nec tellus posuere condimentum non vitae magna. Sed aliquet, enim sed lacinia dignissim, turpis enim fringilla orci, quis venenatis velit nunc in urna. Curabitur nec posuere neque, ut gravida libero. Proin ac quam nisi. Nunc sodales ex sed congue commodo. Nam in nisl et odio laoreet malesuada placerat et mauris. Vestibulum dictum urna vitae lacus posuere tempus. Aliquam vitae diam dui.</p>
+        </div>
+
+    </section>
+
+    <% include ./pathing/cdnFiles %>
+</body>
+</html>

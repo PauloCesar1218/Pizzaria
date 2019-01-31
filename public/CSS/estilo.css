@@ -1,0 +1,58 @@
+.homeImg img {
+    width: 100%;
+    height: 627px;
+}
+
+#story {
+    background-color: #191919;
+    widows: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+#story p {
+    color: #FFF;
+    margin-bottom: 0px !important;
+}
+
+#origem {
+    padding-bottom: 60px;
+}
+
+#origem::after {
+    content: "";
+    position: relative;
+    margin-left: 15px;
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    display: inline-block;
+}
+
+.skills {
+    margin-top: 30px;
+    padding-bottom: 15px;
+    color: antiquewhite;
+}
+
+.skills h3 {
+    text-align: center;
+}
+
+#atualmente {
+    padding-top: 60px;
+}
+
+#atualmente h1 {
+    padding-bottom: 60px;
+}
+
+#atualmente h1::after {
+    content: "";
+    position: relative;
+    margin-left: 15px;
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    display: inline-block;
+}
