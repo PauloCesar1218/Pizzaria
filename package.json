@@ -19,7 +19,8 @@
   "dependencies": {
     "bootstrap": "^4.2.1",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemailer": "^5.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

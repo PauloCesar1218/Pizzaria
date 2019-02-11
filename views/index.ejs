@@ -4,35 +4,7 @@
     <% include ./pathing/links %>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container text-white">
-            <a class="navbar-brand" href="#">Paulo Cesar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto"> 
-                    <li class="nav-item"><a href="#" class="nav-link ">Quem sou eu</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link ">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link ">Blog</a></li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Social
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">LinkedIn</a>
-                            <a class="dropdown-item" href="#">GitHub</a>
-                            <a class="dropdown-item" href="#">Facebook</a>
-                            <a class="dropdown-item" href="#">Instagram</a>
-                            <a class="dropdown-item" href="#">Twitter</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <% include ./partials/navbar %>
 
     <div class="homeImg">
         <img src="/public/images/pizza-3007395_1280.jpg" alt="">
@@ -91,11 +63,21 @@
         </div>
     </section>
 
-    <section id="atualmente">
+    <section id="Contato">
 
         <div class="container">
-                <h1 class="display-4">Atualmente</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida ipsum sed quam bibendum, id malesuada nisi volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet blandit sem. Nullam venenatis, ligula laoreet blandit posuere, dui lectus faucibus libero, ac ullamcorper orci massa id lorem. Donec rutrum tristique risus, nec posuere sem dignissim sed. Sed et eleifend ipsum. Donec at ipsum eleifend, aliquet sapien sit amet, commodo neque. Suspendisse lacus tortor, congue eget cursus sed, tempor sed arcu. Donec a turpis nec tellus posuere condimentum non vitae magna. Sed aliquet, enim sed lacinia dignissim, turpis enim fringilla orci, quis venenatis velit nunc in urna. Curabitur nec posuere neque, ut gravida libero. Proin ac quam nisi. Nunc sodales ex sed congue commodo. Nam in nisl et odio laoreet malesuada placerat et mauris. Vestibulum dictum urna vitae lacus posuere tempus. Aliquam vitae diam dui.</p>
+                <h1 class="display-4 mt-5">Contato</h1>
+                <form>
+                    <div class="form-group mt-5">
+                        <label for="remetente">E-mail</label>
+                        <input type="email" name="remetente" class="form-control">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" name="assunto" class="form-control">
+                        <label for="corpo">Menssagem</label>
+                        <textarea name="corpo" class="form-control" id="" cols="30" rows="7" placeholder=". . ."></textarea>
+                        <button type="submit" class="btn bg-primary text-white mt-3">Enviar</button>
+                    </div>
+                </form>
         </div>
 
     </section>
